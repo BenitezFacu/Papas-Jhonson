@@ -9,12 +9,22 @@ footer {
   padding: 10px;
   margin-top: 50px;
 }
+.mapa {
+    aspect-ratio: 2/1;
+}
+.producto {
+    transition: transform 0.3s ease-in-out;
+}
 .producto:hover{
     transform: scale(1.05);
 }
-.imagenes_producto {
+.imagenes {
     display: flex;
     justify-content: center;
+}
+.divcontacto{
+    display: flex;
+    align-items: center;
 }
 textarea {
     resize: none;
